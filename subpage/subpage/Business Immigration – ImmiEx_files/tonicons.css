@@ -1,0 +1,1044 @@
+@font-face {
+  font-family: 'Tonicons';
+  src:  url('../fonts/Tonicons.eot?7oxe9t');
+  src:  url('../fonts/Tonicons.eot?7oxe9t#iefix') format('embedded-opentype'),
+    url('../fonts/Tonicons.ttf?7oxe9t') format('truetype'),
+    url('../fonts/Tonicons.woff?7oxe9t') format('woff'),
+    url('../fonts/Tonicons.svg?7oxe9t#Tonicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-tonicons:before,
+[class^="ti-"], [class*=" ti-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Tonicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-tonicons.glyph-Line-3d-glasses:before {
+  content: "\e900";
+}
+.font-tonicons.glyph-Line-Airplane:before {
+  content: "\e901";
+}
+.font-tonicons.glyph-Line-Allign-center:before {
+  content: "\e902";
+}
+.font-tonicons.glyph-Line-Allign-left:before {
+  content: "\e903";
+}
+.font-tonicons.glyph-Line-Allign-right:before {
+  content: "\e904";
+}
+.font-tonicons.glyph-Line-Allign:before {
+  content: "\e905";
+}
+.font-tonicons.glyph-Line-Arrow:before {
+  content: "\e906";
+}
+.font-tonicons.glyph-Line-Attach:before {
+  content: "\e907";
+}
+.font-tonicons.glyph-Line-Backpack:before {
+  content: "\e908";
+}
+.font-tonicons.glyph-Line-Bag-1:before {
+  content: "\e909";
+}
+.font-tonicons.glyph-Line-Bag-2:before {
+  content: "\e90a";
+}
+.font-tonicons.glyph-Line-Bagel:before {
+  content: "\e90b";
+}
+.font-tonicons.glyph-Line-Baseball:before {
+  content: "\e90c";
+}
+.font-tonicons.glyph-Line-Battery:before {
+  content: "\e90d";
+}
+.font-tonicons.glyph-Line-Bike:before {
+  content: "\e90e";
+}
+.font-tonicons.glyph-Line-Billiard-ball:before {
+  content: "\e90f";
+}
+.font-tonicons.glyph-Line-Bluetooth:before {
+  content: "\e910";
+}
+.font-tonicons.glyph-Line-Bowling-ball:before {
+  content: "\e911";
+}
+.font-tonicons.glyph-Line-Box-1:before {
+  content: "\e912";
+}
+.font-tonicons.glyph-Line-Box-2:before {
+  content: "\e913";
+}
+.font-tonicons.glyph-Line-Box-3:before {
+  content: "\e914";
+}
+.font-tonicons.glyph-Line-Burger:before {
+  content: "\e915";
+}
+.font-tonicons.glyph-Line-Cake:before {
+  content: "\e916";
+}
+.font-tonicons.glyph-Line-Calculator:before {
+  content: "\e917";
+}
+.font-tonicons.glyph-Line-Calendar-1:before {
+  content: "\e918";
+}
+.font-tonicons.glyph-Line-Calendar-2:before {
+  content: "\e919";
+}
+.font-tonicons.glyph-Line-Camera-1:before {
+  content: "\e91a";
+}
+.font-tonicons.glyph-Line-Camera:before {
+  content: "\e91b";
+}
+.font-tonicons.glyph-Line-Car:before {
+  content: "\e91c";
+}
+.font-tonicons.glyph-Line-Cash-register:before {
+  content: "\e91d";
+}
+.font-tonicons.glyph-Line-Chart-1:before {
+  content: "\e91e";
+}
+.font-tonicons.glyph-Line-Chart-2:before {
+  content: "\e91f";
+}
+.font-tonicons.glyph-Line-Chart-3:before {
+  content: "\e920";
+}
+.font-tonicons.glyph-Line-Chart-4:before {
+  content: "\e921";
+}
+.font-tonicons.glyph-Line-Chart-5:before {
+  content: "\e922";
+}
+.font-tonicons.glyph-Line-Chart-6:before {
+  content: "\e923";
+}
+.font-tonicons.glyph-Line-Chart-7:before {
+  content: "\e924";
+}
+.font-tonicons.glyph-Line-Chat-1:before {
+  content: "\e925";
+}
+.font-tonicons.glyph-Line-Chat-2:before {
+  content: "\e926";
+}
+.font-tonicons.glyph-Line-Check:before {
+  content: "\e927";
+}
+.font-tonicons.glyph-Line-Clapper:before {
+  content: "\e928";
+}
+.font-tonicons.glyph-Line-Clock-2:before {
+  content: "\e929";
+}
+.font-tonicons.glyph-Line-Clock-tower:before {
+  content: "\e92a";
+}
+.font-tonicons.glyph-Line-Clock:before {
+  content: "\e92b";
+}
+.font-tonicons.glyph-Line-Cloud-1:before {
+  content: "\e92c";
+}
+.font-tonicons.glyph-Line-Cloud-2:before {
+  content: "\e92d";
+}
+.font-tonicons.glyph-Line-Cloud-3:before {
+  content: "\e92e";
+}
+.font-tonicons.glyph-Line-Cloud-4:before {
+  content: "\e92f";
+}
+.font-tonicons.glyph-Line-Cloud-5:before {
+  content: "\e930";
+}
+.font-tonicons.glyph-Line-Cloud-6:before {
+  content: "\e931";
+}
+.font-tonicons.glyph-Line-Cloud-7:before {
+  content: "\e932";
+}
+.font-tonicons.glyph-Line-Cloud-8:before {
+  content: "\e933";
+}
+.font-tonicons.glyph-Line-Cloud-9:before {
+  content: "\e934";
+}
+.font-tonicons.glyph-Line-Cloud-10:before {
+  content: "\e935";
+}
+.font-tonicons.glyph-Line-Cloud-11:before {
+  content: "\e936";
+}
+.font-tonicons.glyph-Line-Cloud-12:before {
+  content: "\e937";
+}
+.font-tonicons.glyph-Line-Cloud-13:before {
+  content: "\e938";
+}
+.font-tonicons.glyph-Line-Cloud-14:before {
+  content: "\e939";
+}
+.font-tonicons.glyph-Line-Cloud-15:before {
+  content: "\e93a";
+}
+.font-tonicons.glyph-Line-Cloud-16:before {
+  content: "\e93b";
+}
+.font-tonicons.glyph-Line-Cloud-17:before {
+  content: "\e93c";
+}
+.font-tonicons.glyph-Line-Cloud-18:before {
+  content: "\e93d";
+}
+.font-tonicons.glyph-Line-Cocktail:before {
+  content: "\e93e";
+}
+.font-tonicons.glyph-Line-Coffee-mug-2 .path1:before {
+  content: "\e93f";
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-2 .path2:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-2 .path3:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.font-tonicons.glyph-Line-Coffee-mug-2 .path4:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-2 .path5:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-3 .path1:before {
+  content: "\e944";
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-3 .path2:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-3 .path3:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.font-tonicons.glyph-Line-Coffee-mug-3 .path4:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-3 .path5:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Coffee-mug-4:before {
+  content: "\e949";
+}
+.font-tonicons.glyph-Line-Coffee-mug:before {
+  content: "\e94a";
+}
+.font-tonicons.glyph-Line-Cog:before {
+  content: "\e94b";
+}
+.font-tonicons.glyph-Line-Cogs:before {
+  content: "\e94c";
+}
+.font-tonicons.glyph-Line-Compass:before {
+  content: "\e94d";
+}
+.font-tonicons.glyph-Line-Credit-Card:before {
+  content: "\e94e";
+}
+.font-tonicons.glyph-Line-Crescent-moon:before {
+  content: "\e94f";
+}
+.font-tonicons.glyph-Line-Crop:before {
+  content: "\e950";
+}
+.font-tonicons.glyph-Line-Data:before {
+  content: "\e951";
+}
+.font-tonicons.glyph-Line-Database:before {
+  content: "\e952";
+}
+.font-tonicons.glyph-Line-Degree-1:before {
+  content: "\e953";
+}
+.font-tonicons.glyph-Line-Diamond:before {
+  content: "\e955";
+}
+.font-tonicons.glyph-Line-Dollar:before {
+  content: "\e956";
+}
+.font-tonicons.glyph-Line-Dont-disturb:before {
+  content: "\e957";
+}
+.font-tonicons.glyph-Line-Download-1:before {
+  content: "\e958";
+}
+.font-tonicons.glyph-Line-Download-2:before {
+  content: "\e959";
+}
+.font-tonicons.glyph-Line-Download-3:before {
+  content: "\e95a";
+}
+.font-tonicons.glyph-Line-Download-4:before {
+  content: "\e95b";
+}
+.font-tonicons.glyph-Line-Download-5:before {
+  content: "\e95c";
+}
+.font-tonicons.glyph-Line-Eiffel-tower:before {
+  content: "\e95d";
+}
+.font-tonicons.glyph-Line-Eject:before {
+  content: "\e95e";
+}
+.font-tonicons.glyph-Line-Email-2:before {
+  content: "\e95f";
+}
+.font-tonicons.glyph-Line-Email-3:before {
+  content: "\e960";
+}
+.font-tonicons.glyph-Line-Email:before {
+  content: "\e961";
+}
+.font-tonicons.glyph-Line-Equalizer-2:before {
+  content: "\e962";
+}
+.font-tonicons.glyph-Line-Equalizer:before {
+  content: "\e963";
+}
+.font-tonicons.glyph-Line-Euro:before {
+  content: "\e964";
+}
+.font-tonicons.glyph-Line-Eye:before {
+  content: "\e965";
+}
+.font-tonicons.glyph-Line-File-1:before {
+  content: "\e966";
+}
+.font-tonicons.glyph-Line-File-2:before {
+  content: "\e967";
+}
+.font-tonicons.glyph-Line-File-3:before {
+  content: "\e968";
+}
+.font-tonicons.glyph-Line-File-4:before {
+  content: "\e969";
+}
+.font-tonicons.glyph-Line-File-5:before {
+  content: "\e96a";
+}
+.font-tonicons.glyph-Line-File-6:before {
+  content: "\e96b";
+}
+.font-tonicons.glyph-Line-File-7:before {
+  content: "\e96c";
+}
+.font-tonicons.glyph-Line-File-8:before {
+  content: "\e96d";
+}
+.font-tonicons.glyph-Line-File-9:before {
+  content: "\e96e";
+}
+.font-tonicons.glyph-Line-File-10:before {
+  content: "\e96f";
+}
+.font-tonicons.glyph-Line-File-11:before {
+  content: "\e970";
+}
+.font-tonicons.glyph-Line-File-12:before {
+  content: "\e971";
+}
+.font-tonicons.glyph-Line-File-13:before {
+  content: "\e972";
+}
+.font-tonicons.glyph-Line-File-14:before {
+  content: "\e973";
+}
+.font-tonicons.glyph-Line-File-15:before {
+  content: "\e974";
+}
+.font-tonicons.glyph-Line-File-16:before {
+  content: "\e975";
+}
+.font-tonicons.glyph-Line-File-17:before {
+  content: "\e976";
+}
+.font-tonicons.glyph-Line-File-18:before {
+  content: "\e977";
+}
+.font-tonicons.glyph-Line-File-19:before {
+  content: "\e978";
+}
+.font-tonicons.glyph-Line-File-20:before {
+  content: "\e979";
+}
+.font-tonicons.glyph-Line-File-21:before {
+  content: "\e97a";
+}
+.font-tonicons.glyph-Line-File-22:before {
+  content: "\e97b";
+}
+.font-tonicons.glyph-Line-Film-roll:before {
+  content: "\e97c";
+}
+.font-tonicons.glyph-Line-Film-strip:before {
+  content: "\e97d";
+}
+.font-tonicons.glyph-Line-Fire:before {
+  content: "\e97e";
+}
+.font-tonicons.glyph-Line-Flag-2:before {
+  content: "\e97f";
+}
+.font-tonicons.glyph-Line-Flag:before {
+  content: "\e980";
+}
+.font-tonicons.glyph-Line-Flash:before {
+  content: "\e981";
+}
+.font-tonicons.glyph-Line-Folder-1:before {
+  content: "\e982";
+}
+.font-tonicons.glyph-Line-Folder-2:before {
+  content: "\e983";
+}
+.font-tonicons.glyph-Line-Folder-3:before {
+  content: "\e984";
+}
+.font-tonicons.glyph-Line-Folder-4:before {
+  content: "\e985";
+}
+.font-tonicons.glyph-Line-Folder-5:before {
+  content: "\e986";
+}
+.font-tonicons.glyph-Line-Folder-6:before {
+  content: "\e987";
+}
+.font-tonicons.glyph-Line-Football:before {
+  content: "\e988";
+}
+.font-tonicons.glyph-Line-Forward:before {
+  content: "\e989";
+}
+.font-tonicons.glyph-Line-Fries:before {
+  content: "\e98a";
+}
+.font-tonicons.glyph-Line-Gallery-2:before {
+  content: "\e98b";
+}
+.font-tonicons.glyph-Line-Gallery-3:before {
+  content: "\e98c";
+}
+.font-tonicons.glyph-Line-Gallery:before {
+  content: "\e98d";
+}
+.font-tonicons.glyph-Line-Glass-1:before {
+  content: "\e98e";
+}
+.font-tonicons.glyph-Line-Glass-2:before {
+  content: "\e98f";
+}
+.font-tonicons.glyph-Line-Globe:before {
+  content: "\e990";
+}
+.font-tonicons.glyph-Line-Gong:before {
+  content: "\e991";
+}
+.font-tonicons.glyph-Line-Guitar .path1:before {
+  content: "\e992";
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path2:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path3:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path4:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path5:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path6:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path7:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path8:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path9:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path10:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path11:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path12:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path13:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path14:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path15:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path16:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path17:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path18:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path19:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(91, 85, 77);
+}
+.font-tonicons.glyph-Line-Guitar .path20:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.font-tonicons.glyph-Line-Hat-glasses:before {
+  content: "\e9a6";
+}
+.font-tonicons.glyph-Line-Headphone-1:before {
+  content: "\e9a7";
+}
+.font-tonicons.glyph-Line-Headphone-2:before {
+  content: "\e9a8";
+}
+.font-tonicons.glyph-Line-Heart:before {
+  content: "\e9a9";
+}
+.font-tonicons.glyph-Line-Home:before {
+  content: "\e9aa";
+}
+.font-tonicons.glyph-Line-Hot-dog:before {
+  content: "\e9ab";
+}
+.font-tonicons.glyph-Line-Ice-cream-1:before {
+  content: "\e9ac";
+}
+.font-tonicons.glyph-Line-Ice-cream-2:before {
+  content: "\e9ad";
+}
+.font-tonicons.glyph-Line-icon:before {
+  content: "\e9ae";
+}
+.font-tonicons.glyph-Line-ID:before {
+  content: "\e9af";
+}
+.font-tonicons.glyph-Line-Info:before {
+  content: "\e9b0";
+}
+.font-tonicons.glyph-Line-Island:before {
+  content: "\e9b1";
+}
+.font-tonicons.glyph-Line-Key-2:before {
+  content: "\e9b2";
+}
+.font-tonicons.glyph-Line-Key:before {
+  content: "\e9b3";
+}
+.font-tonicons.glyph-Line-Knives-forks-2:before {
+  content: "\e9b4";
+}
+.font-tonicons.glyph-Line-Knives-forks:before {
+  content: "\e9b5";
+}
+.font-tonicons.glyph-Line-Label:before {
+  content: "\e9b6";
+}
+.font-tonicons.glyph-Line-Laptop:before {
+  content: "\e9b7";
+}
+.font-tonicons.glyph-Line-Lemon:before {
+  content: "\e9b8";
+}
+.font-tonicons.glyph-Line-Link:before {
+  content: "\e9b9";
+}
+.font-tonicons.glyph-Line-Loading:before {
+  content: "\e9ba";
+}
+.font-tonicons.glyph-Line-Lock-1:before {
+  content: "\e9bb";
+}
+.font-tonicons.glyph-Line-Lock-2:before {
+  content: "\e9bc";
+}
+.font-tonicons.glyph-Line-Map-Pin-2:before {
+  content: "\e9bd";
+}
+.font-tonicons.glyph-Line-Map-Pin-3:before {
+  content: "\e9be";
+}
+.font-tonicons.glyph-Line-Map-Pin-4:before {
+  content: "\e9bf";
+}
+.font-tonicons.glyph-Line-Map-Pin:before {
+  content: "\e9c0";
+}
+.font-tonicons.glyph-Line-Medal:before {
+  content: "\e9c1";
+}
+.font-tonicons.glyph-Line-Megaphone-1:before {
+  content: "\e9c2";
+}
+.font-tonicons.glyph-Line-Megaphone:before {
+  content: "\e9c3";
+}
+.font-tonicons.glyph-Line-Microphone-2:before {
+  content: "\e9c4";
+}
+.font-tonicons.glyph-Line-Microphone-3:before {
+  content: "\e9c5";
+}
+.font-tonicons.glyph-Line-Microphone:before {
+  content: "\e9c6";
+}
+.font-tonicons.glyph-Line-Money-1:before {
+  content: "\e9c7";
+}
+.font-tonicons.glyph-Line-Money-2:before {
+  content: "\e9c8";
+}
+.font-tonicons.glyph-Line-Motorcycle:before {
+  content: "\e9c9";
+}
+.font-tonicons.glyph-Line-Mustache:before {
+  content: "\e9ca";
+}
+.font-tonicons.glyph-Line-Navigation:before {
+  content: "\e9cb";
+}
+.font-tonicons.glyph-Line-Network-1:before {
+  content: "\e9cc";
+}
+.font-tonicons.glyph-Line-Network-2:before {
+  content: "\e9cd";
+}
+.font-tonicons.glyph-Line-Network-3:before {
+  content: "\e9ce";
+}
+.font-tonicons.glyph-Line-New-email:before {
+  content: "\e9cf";
+}
+.font-tonicons.glyph-Line-New:before {
+  content: "\e9d0";
+}
+.font-tonicons.glyph-Line-Newspaper:before {
+  content: "\e9d1";
+}
+.font-tonicons.glyph-Line-Nota-1:before {
+  content: "\e9d2";
+}
+.font-tonicons.glyph-Line-Nota-2:before {
+  content: "\e9d3";
+}
+.font-tonicons.glyph-Line-Open-1:before {
+  content: "\e9d4";
+}
+.font-tonicons.glyph-Line-Open:before {
+  content: "\e9d5";
+}
+.font-tonicons.glyph-Line-Origami:before {
+  content: "\e9d6";
+}
+.font-tonicons.glyph-Line-Paint-roll:before {
+  content: "\e9d7";
+}
+.font-tonicons.glyph-Line-Paper-plane:before {
+  content: "\e9d8";
+}
+.font-tonicons.glyph-Line-Passport:before {
+  content: "\e9d9";
+}
+.font-tonicons.glyph-Line-Pause:before {
+  content: "\e9da";
+}
+.font-tonicons.glyph-Line-Pen:before {
+  content: "\e9db";
+}
+.font-tonicons.glyph-Line-People-1:before {
+  content: "\e9dc";
+}
+.font-tonicons.glyph-Line-People-2:before {
+  content: "\e9dd";
+}
+.font-tonicons.glyph-Line-Person:before {
+  content: "\e9de";
+}
+.font-tonicons.glyph-Line-Phone:before {
+  content: "\e9df";
+}
+.font-tonicons.glyph-Line-Photo-1:before {
+  content: "\e9e0";
+}
+.font-tonicons.glyph-Line-Photo-2:before {
+  content: "\e9e1";
+}
+.font-tonicons.glyph-Line-Piano:before {
+  content: "\e9e2";
+}
+.font-tonicons.glyph-Line-Pie-Chart-1:before {
+  content: "\e9e3";
+}
+.font-tonicons.glyph-Line-Pie-Chart-2:before {
+  content: "\e9e4";
+}
+.font-tonicons.glyph-Line-Pin-helmet:before {
+  content: "\e9e5";
+}
+.font-tonicons.glyph-Line-Pizza:before {
+  content: "\e9e6";
+}
+.font-tonicons.glyph-Line-Play:before {
+  content: "\e9e7";
+}
+.font-tonicons.glyph-Line-Popcorn:before {
+  content: "\e9e8";
+}
+.font-tonicons.glyph-Line-Printer-fax:before {
+  content: "\e9e9";
+}
+.font-tonicons.glyph-Line-Pyramids:before {
+  content: "\e9ea";
+}
+.font-tonicons.glyph-Line-Radio:before {
+  content: "\e9eb";
+}
+.font-tonicons.glyph-Line-Rain:before {
+  content: "\e9ec";
+}
+.font-tonicons.glyph-Line-Refresh-1:before {
+  content: "\e9ed";
+}
+.font-tonicons.glyph-Line-Refresh-2:before {
+  content: "\e9ee";
+}
+.font-tonicons.glyph-Line-Rugby-ball:before {
+  content: "\e9ef";
+}
+.font-tonicons.glyph-Line-Satellite-2:before {
+  content: "\e9f0";
+}
+.font-tonicons.glyph-Line-Satellite:before {
+  content: "\e9f1";
+}
+.font-tonicons.glyph-Line-Scale-1:before {
+  content: "\e9f2";
+}
+.font-tonicons.glyph-Line-Scale-2:before {
+  content: "\e9f3";
+}
+.font-tonicons.glyph-Line-Scale-3:before {
+  content: "\e9f4";
+}
+.font-tonicons.glyph-Line-Scale-4:before {
+  content: "\e9f5";
+}
+.font-tonicons.glyph-Line-scissors:before {
+  content: "\e9f6";
+}
+.font-tonicons.glyph-Line-Screen-1:before {
+  content: "\e9f7";
+}
+.font-tonicons.glyph-Line-Screen-2:before {
+  content: "\e9f8";
+}
+.font-tonicons.glyph-Line-Screen-3:before {
+  content: "\e9f9";
+}
+.font-tonicons.glyph-Line-Screen-4:before {
+  content: "\e9fa";
+}
+.font-tonicons.glyph-Line-Send-1:before {
+  content: "\e9fb";
+}
+.font-tonicons.glyph-Line-Send-2:before {
+  content: "\e9fc";
+}
+.font-tonicons.glyph-Line-Setup-1:before {
+  content: "\e9fd";
+}
+.font-tonicons.glyph-Line-Share:before {
+  content: "\e9fe";
+}
+.font-tonicons.glyph-Line-Ship:before {
+  content: "\e9ff";
+}
+.font-tonicons.glyph-Line-Shopping-basket-1:before {
+  content: "\ea00";
+}
+.font-tonicons.glyph-Line-Shopping-basket-2:before {
+  content: "\ea01";
+}
+.font-tonicons.glyph-Line-Shopping-basket-3:before {
+  content: "\ea02";
+}
+.font-tonicons.glyph-Line-Shopping-cart-1:before {
+  content: "\ea03";
+}
+.font-tonicons.glyph-Line-Shopping-cart-2:before {
+  content: "\ea04";
+}
+.font-tonicons.glyph-Line-Shopping-cart-3:before {
+  content: "\ea05";
+}
+.font-tonicons.glyph-Line-Shuffle:before {
+  content: "\ea06";
+}
+.font-tonicons.glyph-Line-Smartphone-1:before {
+  content: "\ea07";
+}
+.font-tonicons.glyph-Line-Smartphone-2:before {
+  content: "\ea08";
+}
+.font-tonicons.glyph-Line-Soccer-ball:before {
+  content: "\ea09";
+}
+.font-tonicons.glyph-Line-Sound-2:before {
+  content: "\ea0a";
+}
+.font-tonicons.glyph-Line-Sound-close:before {
+  content: "\ea0b";
+}
+.font-tonicons.glyph-Line-Sound:before {
+  content: "\ea0c";
+}
+.font-tonicons.glyph-Line-Speaker:before {
+  content: "\ea0d";
+}
+.font-tonicons.glyph-Line-Speech-bubble-1:before {
+  content: "\ea0e";
+}
+.font-tonicons.glyph-Line-Speech-bubble-2:before {
+  content: "\ea0f";
+}
+.font-tonicons.glyph-Line-Speech-bubble-3:before {
+  content: "\ea10";
+}
+.font-tonicons.glyph-Line-Speech-bubble-4:before {
+  content: "\ea11";
+}
+.font-tonicons.glyph-Line-Speech-bubble-5:before {
+  content: "\ea12";
+}
+.font-tonicons.glyph-Line-Speech-bubble-6:before {
+  content: "\ea13";
+}
+.font-tonicons.glyph-Line-Speech-bubble-7:before {
+  content: "\ea14";
+}
+.font-tonicons.glyph-Line-Star:before {
+  content: "\ea15";
+}
+.font-tonicons.glyph-Line-Stop:before {
+  content: "\ea16";
+}
+.font-tonicons.glyph-Line-Stopwatch:before {
+  content: "\ea17";
+}
+.font-tonicons.glyph-Line-Store:before {
+  content: "\ea18";
+}
+.font-tonicons.glyph-Line-Suitcase-1:before {
+  content: "\ea19";
+}
+.font-tonicons.glyph-Line-Suitcase-2:before {
+  content: "\ea1a";
+}
+.font-tonicons.glyph-Line-Sun:before {
+  content: "\ea1b";
+}
+.font-tonicons.glyph-Line-Sunbed:before {
+  content: "\ea1c";
+}
+.font-tonicons.glyph-Line-Tablet:before {
+  content: "\ea1d";
+}
+.font-tonicons.glyph-Line-Target:before {
+  content: "\ea1e";
+}
+.font-tonicons.glyph-Line-Tennis-ball:before {
+  content: "\ea1f";
+}
+.font-tonicons.glyph-Line-Tent:before {
+  content: "\ea20";
+}
+.font-tonicons.glyph-Line-Test-tube:before {
+  content: "\ea21";
+}
+.font-tonicons.glyph-Line-Text-1:before {
+  content: "\ea22";
+}
+.font-tonicons.glyph-Line-Text-2:before {
+  content: "\ea23";
+}
+.font-tonicons.glyph-Line-Thermometer:before {
+  content: "\ea24";
+}
+.font-tonicons.glyph-Line-Thinking-bubble-1:before {
+  content: "\ea25";
+}
+.font-tonicons.glyph-Line-Thinking-bubble-2:before {
+  content: "\ea26";
+}
+.font-tonicons.glyph-Line-Thinking-bubble-3:before {
+  content: "\ea27";
+}
+.font-tonicons.glyph-Line-Thinking-bubble:before {
+  content: "\ea28";
+}
+.font-tonicons.glyph-Line-Thumbs-up:before {
+  content: "\ea29";
+}
+.font-tonicons.glyph-Line-Tool:before {
+  content: "\ea2a";
+}
+.font-tonicons.glyph-Line-Tornado:before {
+  content: "\ea2b";
+}
+.font-tonicons.glyph-Line-Train:before {
+  content: "\ea2c";
+}
+.font-tonicons.glyph-Line-Trash:before {
+  content: "\ea2d";
+}
+.font-tonicons.glyph-Line-Turn-table:before {
+  content: "\ea2e";
+}
+.font-tonicons.glyph-Line-Umbrella-1:before {
+  content: "\ea2f";
+}
+.font-tonicons.glyph-Line-Umbrella-2:before {
+  content: "\ea30";
+}
+.font-tonicons.glyph-Line-Umbrella-3:before {
+  content: "\ea31";
+}
+.font-tonicons.glyph-Line-Umbrella-4:before {
+  content: "\ea32";
+}
+.font-tonicons.glyph-Line-Upload-1:before {
+  content: "\ea33";
+}
+.font-tonicons.glyph-Line-Upload-2:before {
+  content: "\ea34";
+}
+.font-tonicons.glyph-Line-Upload-3:before {
+  content: "\ea35";
+}
+.font-tonicons.glyph-Line-Volleyball:before {
+  content: "\ea36";
+}
+.font-tonicons.glyph-Line-Wind-1:before {
+  content: "\ea37";
+}
+.font-tonicons.glyph-Line-Wind-2:before {
+  content: "\ea38";
+}
+.font-tonicons.glyph-Line-Wind-3:before {
+  content: "\ea39";
+}
+.font-tonicons.glyph-Line-Wind-4:before {
+  content: "\ea3a";
+}
+.font-tonicons.glyph-Line-Wind-cock:before {
+  content: "\ea3b";
+}
+.font-tonicons.glyph-Line-Wind:before {
+  content: "\ea3c";
+}
+.font-tonicons.glyph-Line-Zoom-in1:before {
+  content: "\ea3d";
+}
+.font-tonicons.glyph-Line-Zoom-in2:before {
+  content: "\ea3e";
+}
+.font-tonicons.glyph-Line-Zoom-out1:before {
+  content: "\ea3f";
+}
+.font-tonicons.glyph-Line-Zoom-out2:before {
+  content: "\ea40";
+}
+

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="headertopleft">			     			
+			<div class="header-info clearfix">
+				<span class="txt-400"><a href="#">English</a></span> | <span class="txt-400">
+          <a href="#">Español</a></span> | <span class="txt-400">
+            <a href="#">中国人</a></span> | <span class="txt-400">
+              <a href="#">دخول عربي</a></span> | <span class="txt-400">
+                <a href="#">Русский</a>
+              </span>
+			</div>
+		</div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+       <div class="container-fluid"> 
+        <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" alt="Logo" height="80">
+       </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" 
+        aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span> </button> 
+      <div class="collapse navbar-collapse justify-content-end" id="navbarsExample09"> 
+        <ul class="navbar-nav  mb-2 mb-lg-0"> 
+          <li class="nav-item"> <a class="nav-link" aria-current="page" href="#">About</a> </li> 
+          <!--<li class="nav-item"> <a class="nav-link" href="#">Immigration Law</a> </li>
+          <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li>-->
+          <li class="nav-item dropdown"> 
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Immigration Law</a> 
+            <ul class="dropdown-menu"> 
+              <li><a class="dropdown-item" href="#">Action</a></li> 
+              <li><a class="dropdown-item" href="#">Another action</a></li> 
+              <li><a class="dropdown-item" href="#">Something else here</a></li> 
+            </ul> 
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Employment Law</a> 
+              <ul class="dropdown-menu"> 
+                <li><a class="dropdown-item" href="#">Action</a></li> 
+                <li><a class="dropdown-item" href="#">Another action</a></li> 
+                <li><a class="dropdown-item" href="#">Something else here</a></li> 
+              </ul> 
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
+        </ul>
+               <!--<form role="search"> <input class="form-control" type="search" placeholder="Search" aria-label="Search"> 
+              </form>--> 
+        </div> </div> 
+            </nav> 
+            </div>
+
+        <!--Hero Section-->
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/immigrant1.png" class="d-block w-100" alt="Graduates">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fighting for your dreams</h5>
+                <p>Helps dreamers apply for deferred action.</p>
+                <button type="button" class="btn btn-primary">Contact Us</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/group5.png" class="d-block w-100" alt="Immigrant">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Protecting families</h5>
+                <p>Reunites families and keeps them together in the US.</p>
+                <button type="button" class="btn btn-primary">Contact Us</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/scale1.png" class="d-block w-100" alt="Scale with passport">
+              <div class="carousel-caption d-none d-md-block">
+              <h5>Pursuing Justice</h5>
+                <p>Regardless of where you are from or where you are at this moment, you deserve justice</p>
+                <button type="button" class="btn btn-primary">Contact Us</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+
+        <!--About Section-->
+        <div class="container-fluid row align-items-center">
+          <div class="col-md-6 order-md-1 order-2" id="about-text">
+          <h2>Fighting for Your Future in Work and Life</h2>
+          <p>
+            With deep expertise in immigration and employment law, 
+            Marc Asch delivers strategic legal solutions for individuals and businesses navigating complex systems. 
+            Whether you're securing a visa, resolving workplace disputes, or defending your rights, 
+            we act with precision, urgency, and purpose.
+          </p>
+          <button type="button" class="btn btn-primary">Meet March Asch</button>
+          </div>
+          <div class="col-md-6 order-md-2 order-1 mt-3" id="about-image">
+            <img src="assets/img/meet-marc.jpg" class="img-fluid" alt="Scale with passport">
+          </div>
+        </div>
+
+        <!--immigration section-->
+        <div class="container-fluid row align-items-center">
+          <div class="col-md-6 order-md-2 order-1" id="immigration-text">
+        <h2>Trusted U.S. Immigration Counsel for Families, Employees and Students</h2>
+
+         <p>Navigating the U.S. immigration system is complex — we provide experienced, 
+          client-focused legal guidance for green cards, visas, citizenship, and deportation defense. 
+          Based in [City], serving clients nationwide and abroad.</p>
+          <button type="button" class="btn btn-primary">Learn more about our services</button>
+        </div>
+        <div class="col-md-6 order-md-1 order-2 mb-2" id="about-image">
+          <img src="assets/img/father.jpg" class="img-fluid" alt="Scale with passport">
+        </div>
+
+
+        </div>
+
+
+  
+</body>
+</html>
