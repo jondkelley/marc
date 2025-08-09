@@ -10,16 +10,15 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-      <div class="bg-body-tertiary">
+      <div class="bg-body-tertiary py-2">
       <div class="container">
-        <div class="headertopleft">			     			
-          <div class="header-info clearfix">
-            <span class="txt-400"><a href="#">English</a></span> | <span class="txt-400">
-              <a href="#">Español</a></span> | <span class="txt-400">
-                <a href="#">中国人</a></span> | <span class="txt-400">
-                  <a href="#">دخول عربي</a></span> | <span class="txt-400">
-                    <a href="#">Русский</a>
-                  </span>
+        <div class="d-flex justify-content-end">			     			
+          <div class="language-buttons">
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">Español</a>
+            <a href="#" class="language-btn">中国人</a>
+            <a href="#" class="language-btn">دخول عربي</a>
+            <a href="#" class="language-btn">Русский</a>
           </div>
         </div>
       </div>
@@ -73,9 +72,9 @@
             <div class="carousel-item active">
               <img src="assets/img/immigrant1.png" class="d-block w-100" alt="Graduates">
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Fighting for your dreams</h5>
+                <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Uniting Families</h5>
                 <br>
-                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Helps dreamers apply for deferred action.</p>
+                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Keeping families together in the U.S.</p>
                 <br>
                 <a href="#" class="custom-gradient-btn-small mt-2">Contact Us</a>
               </div>
@@ -83,9 +82,9 @@
             <div class="carousel-item">
               <img src="assets/img/group5.png" class="d-block w-100" alt="Immigrant">
               <div class="carousel-caption d-none d-md-block">
-                <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Protecting families</h5>
+                <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Fighting for your dreams</h5>
                 <br>
-                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Reunites families and keeps them together in the US.</p>
+                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Helping dreamers apply for deferred action.</p>
                 <br>
                 <a href="#" class="custom-gradient-btn-small mt-2">Contact Us</a>
               </div>
@@ -93,9 +92,9 @@
             <div class="carousel-item">
               <img src="assets/img/scale1.png" class="d-block w-100" alt="Scale with passport">
               <div class="carousel-caption d-none d-md-block">
-              <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Pursuing Justice</h5>
+              <!-- <h5 class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Pursuing Justice</h5> -->
                 <br>
-                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Regardless of where you are from or where you are at this moment, you deserve justice</p>
+                <p class="bg-dark bg-opacity-75 px-2 py-1 rounded d-inline">Regardless of where you are from or where you are, you deserve justice.</p>
                 <br>
                 <a href="#" class="custom-gradient-btn-small mt-2">Contact Us</a>
               </div>
@@ -118,10 +117,10 @@
             <div class="col-md-6 order-md-1 order-2 ps-md-5 px-4 px-md-3" id="about-text">
                               <h2 style="margin-top: 50px;">Improving Your Future</h2>
               <p>
-                With seasoned expertise in immigration and employment law, 
-                Marc Asch delivers strategic legal solutions for individuals and businesses navigating complex systems. 
-                Whether you're securing a visa, resolving workplace disputes, or defending your rights, 
-                I act with precision, urgency, and purpose.
+                With over <span id="years-experience"></span> years of practice in U.S. immigration and employment law, I guide clients through high-stakes processes with clarity and control. I represent individuals pursuing visas, permanent residence, or citizenship. In employment matters, I handle disputes, contract negotiations, and workplace rights cases with a focus on swift, effective resolution.
+              </p>
+              <p>
+                My approach is grounded in precise legal analysis, direct communication, and decisive action—ensuring you understand every option and its consequences before we move forward.
               </p>
                               <a href="#" class="custom-gradient-btn-small" style="margin-bottom: 50px;">Meet Marc Asch</a>
             </div>
@@ -385,6 +384,7 @@
         </div>
 
         <script src="assets/js/reviews-carousel.js"></script>
+        <script src="assets/js/years-experience.js"></script>
 
   
 </body>
