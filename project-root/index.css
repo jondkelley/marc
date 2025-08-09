@@ -1,3 +1,9 @@
+/* Remove default body margins for full-width header */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Declare heights because of positioning of img element */
 /*.carousel-item {
   height: 50rem;
