@@ -74,7 +74,7 @@
 
         <!--Hero Section-->
         
-        <div id="carouselHeroSection" class="carousel slide">
+        <div id="carouselHeroSection" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselHeroSection" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselHeroSection" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -583,6 +583,32 @@
         </footer>
 
         <script src="assets/js/reviews-carousel.js"></script>
+        
+        <!-- Auto-advance hero carousel -->
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            const carouselElement = document.getElementById('carouselHeroSection');
+            if (carouselElement) {
+              const heroCarousel = new bootstrap.Carousel(carouselElement, {
+                interval: 3000, // 3 seconds
+                wrap: true,      // Loop back to first slide
+                pause: 'hover'   // Pause on hover
+              });
+              
+              // Force start the carousel
+              heroCarousel.cycle();
+              
+              // Force first slide change after 3 seconds to start the timer
+              setTimeout(() => {
+                heroCarousel.next();
+              }, 3000);
+              
+              console.log('Hero carousel initialized with auto-advance');
+            } else {
+              console.error('Carousel element not found');
+            }
+          });
+        </script>
         <script src="assets/js/years-experience.js"></script>
 
   
