@@ -1,4 +1,3 @@
-// Reviews Carousel Functionality
 document.addEventListener('DOMContentLoaded', function() {
   const carousel = document.getElementById('reviewsCarousel');
   const cards = carousel.querySelectorAll('.review-card');
@@ -6,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const nextBtn = document.getElementById('nextBtn');
   
   let currentIndex = 0;
-  const cardsPerView = 2; // Show 2 cards at a time
+  let cardsPerView = window.innerWidth < 768 ? 1 : 2; // <768px = mobile
+  
   const totalCards = cards.length;
   
-  // Function to update carousel display
   function updateCarousel() {
     cards.forEach((card, index) => {
       if (index >= currentIndex && index < currentIndex + cardsPerView) {
@@ -18,13 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.display = 'none';
       }
     });
-    
-    // Update button states
     prevBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex >= totalCards - cardsPerView;
   }
   
-  // Next button click - show next 2 reviews
   nextBtn.addEventListener('click', function() {
     if (currentIndex < totalCards - cardsPerView) {
       currentIndex += cardsPerView;
@@ -32,14 +28,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Previous button click - show previous 2 reviews
   prevBtn.addEventListener('click', function() {
     if (currentIndex > 0) {
       currentIndex -= cardsPerView;
       updateCarousel();
     }
   });
-  
-  // Initialize carousel - show first 2 reviews
+
+  // Recalculate on resize
+  window.addEventListener('resize', () => {
+    const newCardsPerView = window.innerWidth < 768 ? 1 : 2;
+    if (newCardsPerView !== cardsPerView) {
+      cardsPerView = newCardsPerView;
+      currentIndex = 0; // reset to first set
+      updateCarousel();
+    }
+  });
+
   updateCarousel();
-}); 
+});
