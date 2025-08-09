@@ -1,0 +1,17 @@
+{
+  "office": {
+    "address": "137 N Park St",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "zipCode": "49007",
+    "fullAddress": "137 N Park St, Kalamazoo, MI 49007"
+  },
+  "phone": {
+    "number": "(617) 653-8184",
+    "link": "tel:617-653-8184"
+  },
+  "email": {
+    "address": "marc.a.asch@gmail.com",
+    "link": "mailto:marc.a.asch@gmail.com"
+  }
+}
