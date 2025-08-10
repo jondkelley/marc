@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://marcaschlaw.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Allow crawling of all content
+Allow: /index.html
+Allow: /about_marc-asch.html
+Allow: /contact_marc-asch.html
+Allow: /immigration.html
+Allow: /employment.html
+Allow: /sitemap.html
+
+# Allow crawling of immigration law pages
+Allow: /immigration-law_*.html
+Allow: /immigration-*.html
+
+# Allow crawling of legal pages
+Allow: /privacy-policy.html
+Allow: /disclaimer.html
+
+# Allow crawling of assets
+Allow: /assets/
+Allow: /index.css
