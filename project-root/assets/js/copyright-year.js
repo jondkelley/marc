@@ -24,7 +24,7 @@ class CopyrightHandler {
     // Update full copyright text elements
     const copyrightTextElements = document.querySelectorAll('[data-copyright="full-text"]');
     copyrightTextElements.forEach(element => {
-      element.innerHTML = `© ${this.getCopyrightYearText()} by Marc Asch, All rights reserved. <a href="sitemap.html" class="text-decoration-none text-light">Sitemap</a> | <a href="disclaimer.html" class="text-decoration-none text-light">Disclaimer</a> | <a href="privacy-policy.html" class="text-decoration-none text-light">Privacy Policy</a>`;
+      element.innerHTML = `© ${this.getCopyrightYearText()} by Marc Asch, All rights reserved. <a href="sitemap.html" class="text-decoration-none text-light">Sitemap</a> | <a href="disclaimer.html" class="text-decoration-none text-light">Disclaimer</a> | <a href="privacy-policy.html" class="text-decoration-none text-light">Privacy Policy</a> | <a href="credentials.html" class="text-decoration-none text-light">Bar Admission and Credentials</a>`;
     });
   }
 }
