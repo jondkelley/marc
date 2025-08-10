@@ -271,3 +271,62 @@ body {
     height: calc(100vh - 150px);
   }
 }
+
+/* Phone link text styling */
+.phone-link-text {
+  color: #1e3c72;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.phone-link-text:hover {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+/* Phone label styling */
+.phone-label {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* Email link text styling */
+.email-link-text {
+  color: #1e3c72;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.email-link-text:hover {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+/* Email label styling */
+.email-label {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* Contact info layout */
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Hide phone number on mobile/responsive displays */
+@media (max-width: 767.98px) {
+  .contact-info {
+    display: none;
+  }
+}
