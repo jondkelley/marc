@@ -15,6 +15,8 @@ class ContactLoader {
       // Fallback to hardcoded values if JSON fails to load
       this.contactInfo = {
         office: {
+          name: "Marc Asch, Esq.",
+          buildingName: "Barrister Building",
           address: "137 N Park St",
           city: "Kalamazoo", 
           state: "MI",
@@ -36,6 +38,18 @@ class ContactLoader {
 
   updateContactElements() {
     if (!this.contactInfo) return;
+
+    // Update office name elements
+    const nameElements = document.querySelectorAll('[data-contact="name"]');
+    nameElements.forEach(element => {
+      element.textContent = this.contactInfo.office.name;
+    });
+
+    // Update building name elements
+    const buildingNameElements = document.querySelectorAll('[data-contact="building-name"]');
+    buildingNameElements.forEach(element => {
+      element.textContent = this.contactInfo.office.buildingName;
+    });
 
     // Update office address elements
     const addressElements = document.querySelectorAll('[data-contact="address"]');
