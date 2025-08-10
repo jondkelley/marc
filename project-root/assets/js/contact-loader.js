@@ -76,12 +76,24 @@ class ContactLoader {
       }
     });
 
-    // Update phone links
+    // Update phone links - this is the key part for replacing hardcoded numbers
     const phoneLinkElements = document.querySelectorAll('[data-contact="phone-link"]');
     phoneLinkElements.forEach(element => {
       element.href = this.contactInfo.phone.link;
       element.textContent = this.contactInfo.phone.number;
     });
+
+    // Also update any tel: links that might have hardcoded numbers
+    const telLinks = document.querySelectorAll('a[href^="tel:"]');
+    telLinks.forEach(element => {
+      if (element.textContent.includes('(555) 555-5555')) {
+        element.href = this.contactInfo.phone.link;
+        element.textContent = this.contactInfo.phone.number;
+      }
+    });
+
+    // Replace any remaining placeholder phone numbers in the document
+    this.replacePlaceholderPhoneNumbers();
 
     // Update email elements
     const emailElements = document.querySelectorAll('[data-contact="email"]');
@@ -96,6 +108,32 @@ class ContactLoader {
     const emailLinkElements = document.querySelectorAll('[data-contact="email-link"]');
     emailLinkElements.forEach(element => {
       element.href = this.contactInfo.email.link;
+    });
+  }
+
+  replacePlaceholderPhoneNumbers() {
+    // Replace any remaining placeholder phone numbers (555) 555-5555
+    // This handles cases where phone numbers might be in text content without specific data attributes
+    const walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+      null,
+      false
+    );
+
+    const textNodes = [];
+    let node;
+    while (node = walker.nextNode()) {
+      if (node.textContent.includes('(555) 555-5555')) {
+        textNodes.push(node);
+      }
+    }
+
+    textNodes.forEach(textNode => {
+      textNode.textContent = textNode.textContent.replace(
+        /\(555\) 555-5555/g,
+        this.contactInfo.phone.number
+      );
     });
   }
 }
