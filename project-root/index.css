@@ -324,9 +324,51 @@ body {
   align-items: center;
 }
 
+/* Navigation styling for top level */
+.navbar {
+  background-color: #f8f9fa !important;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #000 !important;
+  font-weight: 500;
+  padding: 8px 12px !important;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+  color: #1e3c72 !important;
+}
+
+/* Logo section styling */
+.logo-section {
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+}
+
 /* Hide phone number on mobile/responsive displays */
 @media (max-width: 767.98px) {
   .contact-info {
     display: none;
+  }
+  
+  .navbar {
+    position: relative;
+  }
+  
+  .bg-body-tertiary {
+    padding-top: 10px;
   }
 }
